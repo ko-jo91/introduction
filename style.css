@@ -19,7 +19,7 @@
 .main {
     position: relative;
     background-color: var(--black);
-    min-height: 100vh; 
+    min-height: 150vh; 
 
     
 }
@@ -65,22 +65,6 @@
     color: var(--green);
 
 }
-.nav__links-btn {
-    color: var(--white);
-    list-style: none;
-    text-align: center;
-    text-decoration: none;
-    background-color: var(--cyan);
-    padding: 10px 10px;
-    border-radius: 10px;
-    border: 2px solid var(--black);
-}
-.nav__links-btn:hover {
-    transition: all 0.3s ease-in;
-    color: var(--black);
-    background-color: var(--white);
-    border: 2px solid var(--white);
-}
 
 .nav__logo {
     isolation: isolate;
@@ -99,9 +83,9 @@
 }
 .h1 {
     
-    font-size: 85px;
+    font-size: 6rem;
     font-weight: 750;
-    background-image: linear-gradient(to top, var(--orange1) 30%, var(--orange2) 100%);
+    background-image: linear-gradient(to top, var(--orange1) 20%, var(--orange2) 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -109,7 +93,7 @@
 }
 .h2 {
     
-    font-size: 50px;
+    font-size: 4rem;
     background-image: linear-gradient(to top, var(--blue1) 20%, var(--blue2) 60%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -118,7 +102,7 @@
 }
 .p {
     
-    font-size: 30px;
+    font-size: 2rem;
     color: var(--blue1);
 }
 .buttons {
@@ -198,7 +182,7 @@
    
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
 
     .nav__menu {
         position: sticky;
@@ -225,16 +209,6 @@
     color: var(--blue1);
     transition: all 0.4s ease-in;
     }
-    .nav__links-btn {
-        padding-left: 60px;
-        padding-right: 60px; 
-        background-color: var(--cyan);
-        padding: 10px 100px;   
-    }
-    .nav__links-btn:hover {
-    color: var(--black);
-    transition: all 0.4s ease-in;
-    }
     
     .hamburger {
         display: block;
@@ -251,10 +225,10 @@
     }
     .hero__subs .h1 {
         margin-top: 120px;
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
     .hero__subs .h2 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     .hero__subs .p {
         font-size: 1.5rem;
@@ -266,16 +240,35 @@
     }
     .lets__talk {
         font-size: 2rem;
-        padding: 30px px;
+        padding: 30px;
     }
     .hire__me {
         font-size: 2rem;
-        padding: 30px px;
+        padding: 30px;
     }
  
 
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
+     .hero__subs .h1 {
+        margin-top: 120px;
+        font-size: 2.7rem;
+    }
+    .hero__subs .h2 {
+        font-size: 2rem;
+    }
+    .hero__subs .p {
+        font-size: 1.2rem;
 
 }
+.lets__talk {
+        font-size: 1.7rem;
+        padding: 20px;
+    }
+    .hire__me {
+        font-size: 1.7rem;
+        padding: 20px;
+    }
+
+
 
