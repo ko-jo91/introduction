@@ -122,12 +122,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-colort: transparent; 
-    
-    
-  
-
-}
+    -moz-text-fill-colort: transparent; }
 .hire__me {
     color: var(--white);
     list-style: none;
@@ -139,10 +134,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-colort: transparent; 
- 
-    
-
+    -moz-text-fill-colort: transparent;    
 }
 .lets__talk:hover {
     transition: all 0.5s ease-in;
@@ -191,10 +183,8 @@
         left: 0;
         width: 100%;
         padding: 10px 0 25px;
-        transform: translate(100%);
+        transform: translate(-100%);
         transition: all 0.6s ease-in;
-       
-
     }
     .nav__list {
         
@@ -214,8 +204,6 @@
         display: block;
     }
     .hero {
-       
-
         display: grid;
         grid-template-columns: auto;
         justify-self: center;
@@ -269,6 +257,3 @@
         font-size: 1.7rem;
         padding: 20px;
     }
-
-
-
