@@ -19,7 +19,7 @@
 .main {
     position: relative;
     background-color: var(--black);
-    min-height: 150vh; 
+    min-height: 120vh; 
 
     
 }
@@ -248,7 +248,7 @@
     .hero__subs .p {
         font-size: 1.2rem;
 
-}
+    }
 .lets__talk {
         font-size: 1.7rem;
         padding: 20px;
@@ -257,3 +257,4 @@
         font-size: 1.7rem;
         padding: 20px;
     }
+}
